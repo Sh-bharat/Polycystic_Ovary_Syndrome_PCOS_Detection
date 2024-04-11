@@ -31,16 +31,10 @@ Various machine learning models were applied to predict PCOS presence:
 - Random Forest
 
 ### Best Models
-- **ANN**: Accuracy - 0.986
-- **Random Forest**: Accuracy - 0.986
-
-These two models were combined into a hybrid model, yielding the following metrics:
-- Accuracy: 0.989
-- Precision: 0.991
-- Recall: 0.974
-- Sensitivity: 0.996
-- Specificity: 0.974
-- F1-Score: 0.982
+- **ANN**: Accuracy - 0.9889
+- **Random Forest**: Accuracy - 0.9834
+- **Decision Tree**: Accuracy - 0.9752<br>
+#### These three models were combined into a ensemble model and Providing Accuracy : 0.9917
 
 ## Conclusion
 The hybrid model demonstrates high accuracy and robust performance in PCOS prediction. Further refinement and validation could enhance its utility in clinical settings.
